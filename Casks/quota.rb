@@ -7,14 +7,13 @@ cask "quota" do
   desc "Menu bar indicator for OpenAI Codex and Google Antigravity subscription usage"
   homepage "https://github.com/yeoleobun/Quota"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
   depends_on arch: :arm64
 
   app "Quota.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/Quota.app"]
+  preflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{staged_path}}/Quota.app"]
   end
 
   uninstall quit: "local.quota.app"
