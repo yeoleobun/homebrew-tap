@@ -7,13 +7,13 @@ cask "sailor" do
   desc "Menu bar utility that remembers and auto-switches macOS Network Locations by Wi-Fi SSID"
   homepage "https://github.com/yeoleobun/Sailor"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Sailor.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Sailor.app"]
+  preflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{staged_path}}/Sailor.app"]
   end
 
   uninstall quit: "com.sailor.app"
