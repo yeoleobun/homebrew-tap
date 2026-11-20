@@ -1,6 +1,6 @@
 cask "sailor" do
-  version "0.1.1"
-  sha256 "28be6d5cc9acd9d1b8b17b2d7fb465482aabf66376277e63b179a2873f12594b"
+  version "0.1.2"
+  sha256 "4ee559f66873ee65adcb4c07255c96295c5859b2fe08c0dcfd6cc7dabb0074c5"
 
   url "https://github.com/yeoleobun/Sailor/releases/download/v#{version}/Sailor-macos-arm64.zip"
   name "Sailor"
