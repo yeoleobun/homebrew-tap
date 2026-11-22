@@ -1,6 +1,6 @@
 # yeoleobun/homebrew-tap
 
-Official Homebrew tap for [Quota](https://github.com/yeoleobun/Quota), [macos-use](https://github.com/yeoleobun/macos-use), [Grove](https://github.com/yeoleobun/Grove), and [Sailor](https://github.com/yeoleobun/Sailor).
+Official Homebrew tap for [Quota](https://github.com/yeoleobun/Quota), [macos-use](https://github.com/yeoleobun/macos-use), [Grove](https://github.com/yeoleobun/Grove), [Sailor](https://github.com/yeoleobun/Sailor), and [Lollipop](https://github.com/yeoleobun/Lollipop).
 
 ## Setup Tap
 
@@ -41,10 +41,18 @@ Lightweight native macOS menu bar utility that remembers and auto-switches Netwo
 brew install --cask yeoleobun/tap/sailor
 ```
 
+### Lollipop
+Native macOS YouTube Music client built with SwiftUI and Liquid Glass.
+
+```bash
+brew install --cask yeoleobun/tap/lollipop
+```
+
 ## Upgrade
 
 ```bash
 brew upgrade --cask grove
 brew upgrade --cask quota
 brew upgrade --cask sailor
+brew upgrade --cask lollipop
 ```
