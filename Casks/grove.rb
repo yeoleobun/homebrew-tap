@@ -1,6 +1,6 @@
 cask "grove" do
-  version "0.1.0"
-  sha256 "f83ccfa018c667e7681bafae52102d106a7e6bb2de76882541a533097a19a1ff"
+  version "0.2.0"
+  sha256 "8759071112e57ec0398d60cb6dd7503f511cfe30e426f500021801d74186dab5"
 
   url "https://github.com/yeoleobun/Grove/releases/download/v#{version}/Grove-macos-arm64.zip"
   name "Grove"
