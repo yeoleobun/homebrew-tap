@@ -1,6 +1,6 @@
 cask "lollipop" do
-  version "1.0.4"
-  sha256 "a27e178bbd30d70b664d7c60bafd26e06eb23378208b72fa50664636034dd113"
+  version "1.1.0"
+  sha256 "8947a8b76c1e4bc6717f39f142bb2e129f8ebfee3d71c1cb48afa54dfb5e9cee"
 
   url "https://github.com/yeoleobun/Lollipop/releases/download/v#{version}/Lollipop-#{version}-macOS-arm64.zip"
   name "Lollipop"
