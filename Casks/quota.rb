@@ -1,6 +1,6 @@
 cask "quota" do
   version "0.3.2"
-  sha256 "d40a34b3e7ed3233e09f5a141689c810ed630887e963eeb4853958a85428fff8"
+  sha256 "96b424589fd837ed4a8aedfae6266a09c6504b045315f6a4d7efe965bd6ebde2"
 
   url "https://github.com/yeoleobun/Quota/releases/download/v#{version}/Quota-macos-arm64.zip"
   name "Quota"
